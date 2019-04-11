@@ -1,7 +1,8 @@
 def square_array(array)
   # your code here
-  number = [1,2,3]
-  number.collect do |1|
-  square = i*i 
-  end 
+  newArray=[]
+array.each do |numbers| 
+ numbers=numbers**2 
+newArray<<numbers 
+end
 end
